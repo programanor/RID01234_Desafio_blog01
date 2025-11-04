@@ -1,0 +1,330 @@
+body{
+    font-size: 16px;
+}
+
+/* STYLE TÍTULO I CABEÇALHO */
+#tituloI_Cabecalho{
+    background-color:rgba(2, 162, 143, 1);
+    color:white;
+    width:100%;
+}
+
+#tituloI_Cabecalho h1{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:11.5rem; 
+    font-size:2.5rem
+}
+
+/* STYLE SESSÕES GERAIS */
+section{
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+}
+section{
+    margin: 0rem 6rem 0rem 6rem;
+}
+
+/* SESSÃO I */
+
+/* style imagem I de fundo */
+#ImagemSessaoI{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(imagem/img1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+    height:22.5rem;
+    width:100%;
+    border-radius: .5rem;
+}
+/*style texto imagem I de fundo */
+#ImagemSessaoI p{
+    margin-bottom: 0%;
+    margin-left: 2.4rem;
+    padding-top:14rem;
+    color:white;
+    font-size:1.5rem;
+    font-weight:300;
+    font-family:"Montserrat";
+    font-style:Bold;
+}
+#ImagemSessaoI  h3{
+    margin-bottom:0%;
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size:3rem;
+    font-weight:700;
+    font-family:"Montserrat";
+    font-style:Bold;
+ }
+#ImagemSessaoI h5{
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size:1.5rem;
+    font-weight:500;
+    font-family:"Montserrat";
+    font-style:Medium;
+}
+
+/* style título cards da sessão I  */
+#titulo_post{
+    background-color:rgba(2, 162, 143, 1);
+    box-shadow: .1rem .8rem rgb(245, 242, 242);
+    color:white;
+    font-style: Bold;
+    font-weight:700;
+    font-family:"Montserrat";
+    border-radius: .5rem;
+    margin-bottom: .8rem;
+    margin-top:2rem;
+}
+
+#titulo_post{
+    display:flex;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.5rem;
+    margin-left:6%;
+}
+#titulo_post p{
+    margin-top: 1.8rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration:underline;
+    margin-left: 60%;
+    
+}
+#titulo_post a{
+    color: white;
+}
+#titulo_post p:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .5s;
+}
+
+/*style card I*/
+#sessaoI_CardI{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap:2rem;
+}
+
+.card{
+    width:62.5rem;
+    height:50.5rem;
+    border-radius:  .5rem;
+    justify-content: center;
+    box-shadow: .9rem 1.2rem rgb(244, 240, 240);
+    margin-bottom:1rem;
+}
+
+.card img{
+    width:100%;
+}
+.card .pI{
+    color:rgba(2, 162, 143, 1);
+}
+.card .titulo_Card{
+    font-family:"Montserrat";
+    font-size:1.7rem;
+    font-weight:700;
+}
+.card .pII{
+    font-family:"Montserrat";
+    font-size:1rem;
+    font-weight:400;
+    color:rgba(97, 97, 97, 1);
+    font-style: Medium;
+}
+.card .pIII{
+    font-family:"Montserrat";
+    font-size:1rem;
+    font-weight:400;
+    color:black;
+}
+.card .pIV{
+    font-family:"Montserrat";
+    font-size:1rem;
+    color:rgba(97, 97, 97, 1);
+    font-weight:500;
+    font-style: Medium;
+}
+.texto_card{
+    margin-left: .5rem;
+}
+
+/*SESSÃO II*/
+
+#sessaoII{
+    margin-left:1.5rem;
+}
+
+/* style titulo I da sessão II */
+#titulo_postII{
+    border-radius:1.2rem;
+    background-color:rgba(2, 162, 143, 1);
+    color:white;
+}
+#titulo_postII h3{
+    font-size:1.7rem;
+    font-style:Bold;
+    font-weight:700;
+    font-family:"Montserrat";
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+
+/* style artigos sessão II */
+
+/* style cards II  */
+.artigoCard{
+    width:100%;
+    height:4rem;
+   
+}
+.artigoCard img{
+    width:7rem;
+    height:4rem;
+    border-radius: .5rem;
+}
+
+.artigoCard{
+    display:flex;
+    margin-top:1.6rem;
+    margin-bottom:2.2rem;
+}
+.artigoCard{
+    border-radius: .5rem;
+    box-shadow: .1rem .8rem rgb(245, 242, 242);
+}
+.artigoCard img{
+    margin-left: 1rem;
+}
+.texto_Artigo{
+    margin-left: 1rem;
+}
+.texto_Artigo h3{
+    font-size:1.2rem;
+    font-weight:700;
+    font-family:"Montserrat";
+    margin-top:0rem;
+    margin-bottom: 0rem;
+    width: 100%;
+}
+.texto_Artigo p{
+    width: 100%;
+    font-size: .8rem;
+    margin-top: 0rem;
+    font-weight:500;
+    font-family:"Montserrat";
+    font-style:Medium;
+    color:rgba(97, 97, 97, 1)
+    
+    
+}
+/* style sessão categoria site */
+#categoria_Site{
+
+margin: 0rem;
+}
+
+/* style titulo II da sessão II categoria site*/
+#titulo_postIII{
+    border-radius: .5rem;
+    background-color:rgba(2, 162, 143, 1);
+    box-shadow: .1rem .8rem rgb(245, 242, 242);
+    color:white;
+    margin-left:1rem;
+}
+#titulo_postIII h3{
+    font-size:1.8rem;
+    font-style:Bold;
+    font-weight:700;
+    font-family:"Montserrat";
+
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+/* style sessão categoria site */
+nav{
+    margin: 0rem;
+}
+
+/* style titulo II da sessão II categoria site*/
+#titulo_postIII{
+    border-radius: .5rem;
+    background-color:rgba(2, 162, 143, 1);
+    box-shadow: .1rem .8rem rgb(245, 242, 242);
+    color:white;
+    margin-left:1rem;
+}
+#titulo_postIII h3{
+    font-size:1.8rem;
+    font-style:Bold;
+    font-weight:700;
+    font-family:"Montserrat";
+
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+
+/* style conteudo da categoria site */
+.site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.site {
+    padding-left:2rem;
+}
+
+.site p{    
+    font-size:1.5rem;
+    font-weight:600;
+    color:rgba(97, 97, 97, 1);
+    font-family:"Montserrat";
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+}
+.site p a{
+    text-decoration: none;     
+    font-size:1.5rem;
+    font-weight:600;
+    color:rgba(97, 97, 97, 1);
+    font-family:"Montserrat";
+}
+.site p:hover{
+  scale:1.1;
+  transition: 0.5s;
+}
+
+/* STYLE RODA PÉ */
+footer{
+    padding-top: .5rem;
+    margin-top:5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style:SemiBold;
+    font-family:"Montserrat";
+    font-weight: 600;
+    width:100%;
+    height:4.5rem;
+    color:white;
+    background-color:rgba(2, 162, 143, 1);
+}
+
+
+

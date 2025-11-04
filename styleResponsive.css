@@ -1,0 +1,410 @@
+body{
+    font-size:16px;
+}
+/* STYLE TÍTULO I CABEÇALHO */
+
+@media(min-width:15rem) and (max-width:64rem){
+#tituloI_Cabecalho h1{
+    font-size: 1.5rem;
+    padding-left:0rem;
+    text-align: center;
+}
+    
+}
+
+/* STYLE SESSÕES GERAIS */
+
+@media(min-width:10rem) and (max-width:63.9rem){
+section{
+    display:flex;
+    flex-direction:column;
+}
+section{
+    margin: 0rem .5rem 0rem .5rem;
+}
+}
+
+/* SESSÃO I */
+
+/*style texto imagem I de fundo */
+
+@media(min-width:63.5rem) and (max-width:74.7rem){
+
+#ImagemSessaoI p{
+    margin-bottom: 0%;
+    margin-left: 2.4rem;
+    padding-top:14rem;
+    color:white;
+    font-size:1.2rem;
+    font-weight:300;
+    font-family:"Montserrat";
+    font-style:Bold;
+}
+#ImagemSessaoI  h3{
+    margin-bottom:0%;
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size:2.1rem;
+    font-weight:700;
+    font-family:"Montserrat";
+    font-style:Bold;
+ }
+#ImagemSessaoI h5{
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size: .9rem;
+    font-weight:500;
+    font-family:"Montserrat";
+    font-style:Medium;
+}
+}
+
+@media(min-width:22.5rem) and (max-width:63.5rem){
+
+#ImagemSessaoI p{
+    margin-bottom: 0%;
+    margin-left: 2.4rem;
+    padding-top:14rem;
+    color:white;
+    font-size:1rem;
+    font-weight:300;
+    font-family:"Montserrat";
+    font-style:Bold;
+}
+#ImagemSessaoI  h3{
+    margin-bottom:0%;
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size:1.8rem;
+    font-weight:700;
+    font-family:"Montserrat";
+    font-style:Bold;
+ }
+#ImagemSessaoI h5{
+    margin-top: 0%;
+    margin-left: 2rem;
+    color:white;
+    font-size:1rem;
+    font-weight:500;
+    font-family:"Montserrat";
+    font-style:Medium;
+}
+
+}
+@media(min-width:10.5rem) and (max-width:22.5rem){
+#ImagemSessaoI p{
+    margin-bottom: 0%;
+    margin-left: 1rem;
+    padding-top:10rem;
+    color:white;
+    font-size:1rem;
+    font-weight:300;
+    font-family:"Montserrat";
+    font-style:Bold;
+}
+#ImagemSessaoI  h3{
+    margin-bottom:0%;
+    margin-top: 0%;
+    margin-left: 1rem;
+    color:white;
+    font-size:1.8rem;
+    font-weight:700;
+    font-family:"Montserrat";
+    font-style:Bold;
+ }
+#ImagemSessaoI h5{
+    margin-top: 0%;
+    margin-left: 1rem;
+    color:white;
+    font-size:1rem;
+    font-weight:500;
+    font-family:"Montserrat";
+    font-style:Medium;
+}
+}
+
+/* style título cards da sessão I  */
+
+@media(min-width:72rem) and (max-width:131.5rem){
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.5rem;
+    margin-left:6%;
+}
+#titulo_post p{
+    margin-top: 1.8rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration:underline;
+    margin-left: 50%;
+}
+}
+@media(min-width:68.7rem) and (max-width:72rem){
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.5rem;
+    margin-left:4%;
+}
+#titulo_post p{
+    margin-top: 1.8rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration:underline;
+    margin-left: 42%;
+}
+}
+
+@media(min-width:63.8rem) and (max-width:68.7rem){
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.5rem;
+    margin-left:4%;
+}
+#titulo_post p{
+    margin-top: 1.8rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration:underline;
+    margin-left: 32%;
+}
+}
+
+@media(min-width:37.5rem) and (max-width:63.9rem){
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.5rem;
+    margin-left:2%;
+}
+#titulo_post p{
+    margin-top: 1.8rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size:1rem;
+    text-decoration:underline;
+    margin-left: 50%;
+}
+}
+
+@media(min-width:23.7rem) and (max-width:37.5rem){
+#titulo_post{
+    margin-top:1rem;
+}
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.1rem;
+    margin-left:2%;
+}
+#titulo_post p{
+    margin-top: 1.3rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size: .6rem;
+    text-decoration:underline;
+    margin-left: 40%;
+}
+}
+
+@media(min-width:18.8rem) and (max-width:23.7rem){
+#titulo_post{
+    margin-top:1rem;
+    }
+#titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size:1.1rem;
+    margin-left:2%;
+}
+#titulo_post p{
+    margin-top: 1.3rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size: .6rem;
+    text-decoration:underline;
+    margin-left: 29%;
+}
+}
+
+@media(min-width:10rem) and (max-width:18.8rem){
+    #titulo_post{
+        margin-top:1rem;
+    }
+    #titulo_post h3{
+    font-style:Bold;
+    font-weight:700;
+    font-size: .9rem;
+    margin-left:2%;
+}
+#titulo_post p{
+    margin-top: 1.2rem;
+    font-style:Medium;
+    font-weight:500;
+    font-size: .5rem;
+    text-decoration:underline;
+    margin-left: 10%;
+}
+}
+
+
+/*style card */
+@media(min-width:151.3.rem) and (max-width:160rem){
+.card{
+    width:42rem;
+    height:60rem;
+}
+.card .titulo_Card{  
+    font-size:4rem;
+    font-weight:700;
+}
+.card .pI{   
+    font-size:2rem;
+}
+.card .pII{
+    font-family:"Montserrat";
+    font-size:1.5rem;
+    font-weight:400;
+}
+.card .pIII{  
+    font-size:1.5rem;
+    font-weight:400;
+}
+.card .pIV{   
+    font-size:1.3rem;
+    font-weight:500;
+}
+}
+@media(min-width:127.5rem) and (max-width:151.3rem){
+.card{
+    width:50rem;
+    height:62rem;
+}
+.card .titulo_Card{  
+    font-size:4rem;
+    font-weight:700;
+}
+.card .pI{   
+    font-size:2rem;
+}
+.card .pII{
+    font-family:"Montserrat";
+    font-size:1.5rem;
+    font-weight:400;
+}
+.card .pIII{  
+    font-size:1.5rem;
+    font-weight:400;
+}
+.card .pIV{   
+    font-size:1.3rem;
+    font-weight:500;
+}
+}
+@media(min-width:116.8rem) and (max-width:127.5rem){
+.card{
+    width:30rem;
+    height:36rem;
+}
+}
+@media(min-width:85rem) and (max-width:116.8rem){
+.card{
+    height:100%;
+    width:26rem;
+}    
+}
+@media(min-width:15rem) and (max-width:85rem){
+.card{
+    width:100%;
+    height:100%;
+}
+}
+@media(min-width:10rem) and (max-width:63.5rem){
+ #sessaoI_CardI{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+}
+@media(min-width:15rem) and (max-width:23.8rem){
+.card{
+    width:15rem;
+}
+}
+
+
+/* style titulo I da sessão II */
+
+@media(min-width:60rem) and (max-width:81.2rem){
+ #titulo_postII{
+    width:100%;
+ }   
+ #titulo_postII h3{
+      font-size:1rem;
+      font-weight:800;
+      padding-left: 1rem;
+}
+}
+
+
+/* style cards II */
+@media(min-width:23.7.7rem) and (max-width:81.2rem){
+.texto_Artigo h3{
+    font-size:.9rem;
+    font-weight:600;
+}
+.texto_Artigo p{
+    font-size: .5rem;
+    font-weight:400;
+}
+}
+@media(min-width:10rem) and (max-width:23.7rem){
+.texto_Artigo h3{
+    font-size:.8rem;
+    font-weight:700;
+}
+.texto_Artigo p{
+    font-size: .6rem;
+    font-weight:800;
+}
+.artigoCard img{
+    width:5rem;
+    height:4rem;
+    border-radius: .5rem;
+}
+
+}
+/* style titulo II da sessão II categoria site*/
+@media(min-width:63.5rem) and (max-width:81.2rem){
+#titulo_postIII{
+    margin-top: 4rem;
+    margin-bottom: .3rem;
+}
+
+#titulo_postIII h3{
+    font-size:1.3rem;
+}
+.site p{
+    margin-bottom: .2rem;
+}
+}
+
+
+/* conteudo da categoria site */
+@media(min-width:12.5rem) and (max-width:85rem){
+.site {
+    width:100%;
+    padding-left: .2rem;
+}
+
+}
+
+
